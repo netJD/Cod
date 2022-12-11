@@ -1,5 +1,5 @@
-
 function solution(x, y, d) {
+    if ((x >= 1 && y >= 1 && d >= 1) && (x <= 1000000000 && y <= 1000000000 && d <= 1000000000)) {
 
     let jump = 0;
     let decimal = false;
@@ -26,4 +26,5 @@ function solution(x, y, d) {
     document.getElementById("p1").innerHTML = ("Jump: " + jumpResult);
 
     return jumpResult;
+    }
 }
